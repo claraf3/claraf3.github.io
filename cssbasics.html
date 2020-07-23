@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <title>CSS Basics</title>
+        <meta charset="utf-8">
+        <link rel=stylesheet href="main.css">
+    </head>
+    
+    <body>
+        
+        <header class="site_header">
+            <a href="index.html"><img src="images/header3.png" alt="page header" id="top"></a>
+        </header>
+             
+        <nav class="cbnav">
+            <ul>
+                <li><span class="navheading">Topics</span>
+                    <ul>
+                        <li><a href="htmlinfo.html">What is HTML</a></li>
+                        <li><span class="navcurrent">CSS Basics</span></li>
+                        <li><a href="design_principles.html">Design Principles</a></li>
+                    </ul> 
+                </li>
+                <li><a href="contact.html">Contact Us</a></li> 
+                <li><a href="index.html">Home</a></li> 
+            </ul>
+        </nav>
+
+        <main>
+            <h1>CSS Basics</h1>
+
+            <section class="main_content_left">
+                <h2>Purpose</h2>
+
+                <p>CSS are markups that can be applied to entire blocks, elements, whole documents, or even multiple documents simulatenously. As such, it provides much benefit when coding webpages. Here are three of the many reasons for why CSS is essential.</p>
+                <ul>
+                    <li>Great consistency in design (strcuture, spacing) across web pages</li>
+                    <li>Reduces code required to achieve the same result</li>
+                    <li>Much easier to maintain and make changes to html codes</li>
+                </ul>
+
+                <p>Styles can be implemented in various ways, including inline or embedded. Inline styles are directly coded into the html tags and only applies to that html tag, whereas embedded styles are coded within the <em>head</em> element. One main advantage of using embedded style is that embedded style applies to all the relevant tags within the document, so that there is no need to repeat codes for each tag that the coder wants the style to apply to. </p>
+
+            </section>
+
+            <section class="main_content_right">
+                <h2>CSS Box Model</h2>
+
+                <p>The CSS box model is an important tool for creating structure, alignment, and spacing of and between elements. The table below outlines the different parts of the box model and their characterisics.</p> 
+                <table class="csstable">
+                    <tr>
+                        <td>Content</td>
+                        <td>The centre of the box where the content is displayed (i.e. text, images).</td>
+                    </tr>
+                    <tr>
+                        <td>Padding</td>
+                        <td>The spacing immediately surrounding the content. Padding is transparent and creates buffer space around the content.</td>
+                    </tr>
+                    <tr>
+                        <td>Border</td>
+                        <td>A frame outlining the padding (encapsing the content). It is transparent by default, but can become visible with custom style, thickness, and color.</td>
+                    </tr>
+                    <tr>
+                        <td>Margin</td>
+                        <td>The outermost layer surrounding the border. It is transparent and acts as buffer space from surrounding elements.</td>
+                    </tr>
+                </table>
+
+                <h2>Source</h2>
+                <p>Information on this page is sourced from several websites including:</p>
+                <p><a href="https://vanseodesign.com/css/benefits-of-cascading-style-sheets/" target="_blank">Vanseo Design</a>
+                <a href="http://www.boogiejack.com/CSS_2.html" target="_blank">Boogie Jack</a>
+                <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">W3Schools</a></p>
+            </section>
+        
+        </main>
+        
+        <footer>
+            <div class="footer_left">
+                &copy;2020 Clara Fok for Comp 1850 CRN (202010-70400)<br>
+                <a href="mailto:cfok5@my.bcit.ca">cfok5@my.bcit.ca</a>
+            </div>
+
+            <div class="footer_right">
+                <a href="#top" class="fright">Top</a>
+                <a href="index.html" class="fright">Home</a>
+            </div>
+        </footer>
+    
+    
+    </body>
+
+
+
+</html>

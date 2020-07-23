@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DDE8EA;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+nav {
+    width: 200px;
+    height: 1100px;
+    margin: 50px 30px 140px 200px;
+    background-color: #255A79;
+    float: left;
+}
+
+nav li, footer li {
+    display: block;  
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    text-decoration: none;
+    color: #DDE8EA;  
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 5px 5px -20px;
+}
+
+nav ul ul a:link, nav ul ul a:visited {
+    font-size: 16px;
+    margin: 5px 5px 5px -50px;
+}
+
+nav a:hover, nav a:active {
+    text-decoration: none;
+    color: #68C674;  
+}
+
+h1 {
+    padding: 10px 0 10px 480px;
+    border-bottom: 5px solid #255A79;
+    border-top: 5px solid #255A79;
+    font-size: 28px;
+}
+
+h2 {
+    padding: 0;
+    margin: 30px 0 0 0;
+    font-size: 20px;
+}
+
+section, div {
+    font-size: 17px;
+    line-height: 1.5em
+}
+
+main a:link, main a:visited {
+    text-decoration: underline;
+    padding: 0 2px 0 0;
+    color: black; 
+}
+
+main a:hover, main a:active {
+    text-decoration: underline;
+    padding: 0 2px 0 0;
+    color: #68C674;
+}
+
+td {
+    vertical-align: top;
+}
+
+td:first-child {
+    padding: 0 70px 0 0;
+}
+
+tr:nth-child(6) td {
+    padding-bottom: 10px;
+}
+
+tr:nth-child(7) td {
+    padding-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+footer {
+    clear: both;
+    overflow: auto;
+    background-color:#255A79;
+    color: #DDE8EA;    
+}
+
+footer a:link, footer a:visited {
+    text-decoration: none;
+    color: #DDE8EA;  
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer a:hover, footer a:active {
+    text-decoration: none;
+    color: #68C674;  
+}
+
+
+/* class rules
+
+---------------------------------*/
+.site_header {
+    background-color: #DDE8EA;
+}
+
+.site_header img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.navheading, .navcurrent {
+    display: block;
+    color: #DDE8EA;  
+    font-size: 18px;
+    cursor: default;
+    padding: 10px;
+    margin: 5px 5px 5px -20px;
+}
+
+.navcurrent {
+    color: #68C674;  
+}
+
+ul ul .navcurrent {  
+    font-size: 16px;
+    margin: 5px 5px 5px -50px;
+}
+
+.hinav {
+    height: 1150px;
+}
+
+.cbnav {
+    height: 1000px;
+}
+
+.dpnav {
+    height: 1360px;
+}
+
+.cunav {
+    height: 680px;
+}
+
+.main_content_left {
+    width: 500px;
+    margin: 33px 25px 20px 50px;
+    float: left;
+}
+
+.main_content_left li {
+    margin-left: -20px;
+    padding: 8px 0;
+}
+
+.main_content_right {
+    width: 500px;
+    margin: 33px 50px 20px 25px;
+    float: left;
+}
+
+.box_section {
+    margin: 15px 0 50px 480px;
+    width: 1050px;
+}
+
+.topicbox {
+    background-color: #DDE8EA;
+    border: 5px solid #255A79;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+}
+
+.box_section :nth-child(2), .box_section :nth-child(3) {
+    margin: 0 0 0 69px;
+}
+
+.box_section a:link , .box_section a:visited {
+    text-decoration: none;
+    color: #255A79;
+}
+
+.topicbox:hover, .topicbox:active {
+    background-color: #255A79;
+    text-decoration: none;
+    color: #DDE8EA;
+}
+
+.blockimg {
+    display: block;
+}
+
+.inline-blockimg {
+    display: inline-block;
+}
+
+.csstable {
+    margin: 50px 0 65px 0;
+}
+
+.csstable td{
+    padding: 15px 10px 15px 15px;
+    vertical-align: top;
+}
+
+.csstable td:first-child {
+    padding-right: 25px;
+}
+
+.csstable tr:nth-child(even) {
+    background-color: #91a3b7;
+}
+
+.csstable tr:first-child {
+    border-top: 1px solid black;
+}
+
+.csstable tr:last-child {
+    border-bottom: 1px solid black;
+}
+
+.footer_left, .footer_right {
+    padding: 0 0 70px 0;
+    float: left;
+    width: 500px;
+    font-size: 14px;
+}
+
+.footer_left {
+    margin: 30px 25px 0 480px;
+}
+
+.footer_right {
+    margin: 30px 0 0 25px;
+}
+
+.fright {
+    float: right;
+    padding-left: 15px;
+}
+
+
+/* form rules
+----------------------------*/
+.contact_box {   
+    margin: 37px 50px 20px 50px;
+    float: left;
+}
+
+.contact_box label {
+    width: 200px;
+    float: left;
+}
+
+.form_row {
+    margin: 25px 0;
+}
+
+.form_submit  input{
+    float: right;
+    width: 100px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+input, textarea {
+    border: 2px solid #255A79;
+}
+
+/* id rules
+-----------------*/
+#topics {
+    margin-top: 680px;
+    margin-bottom: 60px;
+}
+
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <title>HTML information</title>
+        <meta charset="utf-8">
+        <link rel=stylesheet href="main.css">
+    </head>
+    
+    <body>
+        
+        <header class="site_header">
+            <a href="index.html"><img src="images/header3.png" alt="page header" id="top"></a>
+        </header>
+        
+        <nav class="hinav">
+            <ul>
+                <li><span class="navheading">Topics</span>
+                    <ul>
+                        <li><span class="navcurrent">What is HTML</span></li>
+                        <li><a href="cssbasics.html">CSS Basics</a></li>
+                        <li><a href="design_principles.html">Design Principles</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li> 
+                <li><a href="index.html">Home</a></li> 
+            </ul>
+        </nav>
+        
+        <main>        
+            <h1>What is HTML?</h1>
+
+            <section class="main_content_left">
+                <h2>Origin</h2>
+
+                <p>Hypertext Markup Language (HTML) was origianlly conceived by physicist Tim Berners-Lee. He wanted to create an internet based hypertext. In late 1990s, Berners-Lee developed HTML specifications and wrote the browser and software server for it. Over the years, HTML has evolved into different versions, from HTML to HTML2, HTML3, HTML4, and eventually to the latest version of HTML5.</p>
+
+                <p>HTML is essentially a series of code and symbols used to markup texts for display in browsers. HTML can be used to implement structural elements, import media (images, videos), and user-interactive features such as forms. This allows the HTML coder to present information in a user-friendly, formatted, and attractive way to end-users who are requesting information from servers through the world wide web.</p>
+
+                <h2>Main Elements</h2>
+
+                <p>Two main elements of any HTML code is the <strong>head</strong> and <strong>body</strong>.</p>
+
+                <table>
+                    <tr>
+                        <td rowspan="6">Head</td>
+                        <td>Meta data on document</td>
+                    </tr>
+                     <tr> 
+                        <td>Web page title</td>
+                    </tr>
+                    <tr>     
+                        <td>Chararacter encoding (i.e. utf-8)</td>
+                    </tr>
+                    <tr>
+                        <td>Scripts</td>
+                    </tr>
+                    <tr>   
+                        <td>Styles</td>
+                    </tr>
+                    <tr>
+                        <td>links to external sheets (i.e. css, ssi)</td>
+                    </tr>               
+                    <tr>
+                        <td rowspan="6">Body</td>
+                        <td>Visible context on browser</td>
+                    </tr>
+                    <tr>
+                        <td>Media (photo/video)</td>
+                    </tr>
+                    <tr>     
+                        <td>Styled text</td>
+                    </tr>
+                    <tr>
+                        <td>Structural elements (paragraphs, indents)</td>
+                    </tr>
+                    <tr>  
+                        <td>Interactive elements (forms)</td>
+                    </tr>
+                    <tr>
+                        <td>Hyperlinks(urls, email, telephone)</td>
+                    </tr>              
+                </table>
+
+                <p>In short, the head element contains information that is used by browers and search engines to extrapolate information regarding the html code. On the other hand, the body element contains information that is displayed to the end-user.</p>
+            </section>
+
+            <section class="main_content_right">
+                <h2>Block vs Inline-Block Elements</h2>
+
+                <p>Both block and inline-block elements are the strcutural display of content. Block elements are treated as a new "block" starting on a new line and takes up the entire width. On the other hand, inline-block elements are also each treated as a separate "block" but they are aligned side by side with each other.</p> 
+
+                <p>Images displayed as "blocks". By default, images are displayed as block, but to hardcode elemnts to be displayed as blocks, the css markup is <em>.class {display: block;}</em></p>
+                <div class="blockimg"><img src="images/cat1.jpg" alt="cat one" width="95" height="100"></div>
+                <div class="blockimg"><img src="images/cat2.jpg" alt="cat one" width="95" height="100"></div>
+
+                <p>The following is the same two images displayed as inline-block elements so they are aligned side by side with each other. The  markup is <em>.class {display: inline-block}</em></p>
+                <div class="inline-blockimg"><img src="images/cat1.jpg" alt="cat one" width="95" height="100"></div>
+                <div class="inline-blockimg"><img src="images/cat2.jpg" alt="cat one" width="95" height="100"></div>
+
+                <h2>Sources</h2>
+                <p>Information presented on this page include information from <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia</a> and textbook page 26 - 29.  </p>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer_left">
+                &copy;2020 Clara Fok for Comp 1850 CRN (202010-70400)<br>
+                <a href="mailto:cfok5@my.bcit.ca">cfok5@my.bcit.ca</a>
+            </div>
+
+            <div class="footer_right">
+                <a href="#top" class="fright">Top</a>
+                <a href="index.html" class="fright">Home</a>
+            </div>
+        </footer>
+    
+    
+    </body>
+
+
+
+</html>
